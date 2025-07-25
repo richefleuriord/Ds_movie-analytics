@@ -33,39 +33,27 @@ The The Numbers dataset (CSV format) provides financial information on movie pro
 
 Together, these datasets allow for a comprehensive analysis that links audience reception with financial outcomes. The data were carefully examined, cleaned, and merged to ensure consistency and accuracy for subsequent analysis.
 # *Data*
-Two distinct datasets were used:
+The project uses two complementary datasets:
 
-IMDB Dataset
+### IMDB SQLite Database (`im.db`)
+Contains detailed film metadata, including:
 
-Format: SQLite database
+- Movie titles and release years  
+- Genres and runtimes  
+- Audience ratings and vote counts  
 
-Includes:
+This dataset provides qualitative and reception-related insights into movies.
 
-Movie titles
+### The Numbers Movie Budgets Dataset (`tm.movie_budgets.csv.gz`)
+Contains financial details such as:
 
-Release years
+- Production budgets  
+- Opening weekend box office revenue  
+- Domestic and worldwide gross revenues  
 
-Genres and runtimes
+This dataset offers a financial perspective to evaluate profitability and commercial success.
 
-User ratings and number of votes
-
-Role: Offers insight into movie content, structure, and audience reception.
-
-Movie Budgets Dataset (from The Numbers)
-
-Format: Comma-separated values (CSV)
-
-Includes:
-
-Production budgets
-
-Opening weekend revenues
-
-Domestic and worldwide gross
-
-Role: Provides a financial lens for evaluating movie performance.
-
-These datasets were cleaned and merged to ensure consistency across variables like movie titles and release years. This preparation phase was essential for conducting a robust and meaningful analysis of the factors that drive movie success.
+Both datasets were cleaned and merged carefully to ensure consistency and reliability for the analysis.
 # *Methods*
 This project employs descriptive and exploratory data analysis techniques to examine key trends in movie performance. By analyzing variables such as genres, budgets, audience ratings, and box office revenues, the approach aims to uncover patterns and relationships that drive commercial success.
 
@@ -76,11 +64,16 @@ Higher-budget films consistently generate significantly greater profits, highlig
 
 
 Genres such as Animation, Adventure, and Sci-Fi outperform others in both revenue and audience ratings, suggesting that genre choice is a critical factor in maximizing returns.
+
 ![Bannière aviation](images/genres.jpeg)
+
 ![Bannière aviation](images/Mean profit per genre.jpeg)
 
+
 While runtime and IMDb ratings show more moderate correlations with financial success, these factors remain statistically significant and contribute to audience satisfaction and box office performance.
+
 ![Bannière aviation](images/profit.jpeg)
+
 # *Conclusions*
 This project successfully applied data science and statistical reasoning to uncover the key factors that drive a film’s financial success.
 
@@ -168,6 +161,7 @@ With the foundation of this analysis firmly established, the following strategic
 By following these steps, the studio can move from analysis to action—scaling its ability to **make smart, data-informed investments**, reduce risk, and **maximize creative and commercial success** in the film industry.
 # *For More Information*
 For additional info, contact Riche Fleurinord at richefleurinord20@gmail.com
+
 ![Bannière aviation](images/image7.jpg)
 
 # *Repository Structure*
@@ -177,17 +171,23 @@ For additional info, contact Riche Fleurinord at richefleurinord20@gmail.com
 
 3-images
 
-4-Final.pdf
+4-.gitignores
 
-5-Final.Presentation.pdf
+5-.gitattributes
 
 6-Final.ipynb
 
-7-README.md
+7-Final.Presentation.pdf
 
-8-LICENCE
+8-Final.pdf
 
-9-gitignore
+9-LICENCE
+
+10-README.md
+
+
+
+
 
 
 
