@@ -24,7 +24,7 @@ Through a data-driven approach, the objective is to generate clear and actionabl
 
 The final recommendations will help business stakeholders make informed decisions to reduce financial risks and increase the likelihood of success in this highly competitive industry.
 # *1-Data Understanding*
-![Bannière aviation](images/image6.jpeg)
+![Bannière aviation](images/image7.jpeg)
 This project relies on two primary datasets that capture both movie characteristics and financial performance. The goal is to combine and analyze these datasets to understand what drives box office success and support decision-making for a new movie studio.
 
 The IMDB dataset (in SQLite format) offers detailed metadata about films, including genres, runtimes, user ratings, and vote counts. These variables are essential for understanding audience preferences and identifying patterns in movie success.
@@ -61,7 +61,7 @@ The goal is to generate actionable insights that support strategic decision-maki
 # *Results*
 Higher-budget films consistently generate significantly greater profits, highlighting the strong influence of investment scale on commercial success.
 
-![Bannière aviation](images/budget vs profit.png)
+![Bannière aviation](images/profit.png)
 
 
 Genres such as Animation, Adventure, and Sci-Fi outperform others in both revenue and audience ratings, suggesting that genre choice is a critical factor in maximizing returns.
@@ -69,12 +69,12 @@ Genres such as Animation, Adventure, and Sci-Fi outperform others in both revenu
 ![Bannière aviation](images/genres.png)
 
 
-![Bannière aviation](images/Mean profit per genre.png)
+![Bannière aviation](images/Mean.png)
 
 
 While runtime and IMDb ratings show more moderate correlations with financial success, these factors remain statistically significant and contribute to audience satisfaction and box office performance.
 
-![Bannière aviation](images/profit.png)
+![Bannière aviation](images/production_budget.png)
 
 # *Conclusions*
 This project successfully applied data science and statistical reasoning to uncover the key factors that drive a film’s financial success.
@@ -164,7 +164,7 @@ By following these steps, the studio can move from analysis to action—scaling 
 # *For More Information*
 For additional info, contact Riche Fleurinord at richefleurinord20@gmail.com
 
-![Bannière aviation](images/image7.jpeg)
+![Bannière aviation](images/image6.jpeg)
 
 # *Repository Structure*
 1-.ipynb_checkpoints
@@ -173,9 +173,9 @@ For additional info, contact Riche Fleurinord at richefleurinord20@gmail.com
 
 3-images
 
-4-.gitignores
+4-.gitattributes
 
-5-.gitattributes
+5-.gitignore
 
 6-Final.ipynb
 
