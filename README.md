@@ -4,11 +4,11 @@ Student name: Riché FLEURINORD
 
 Student pace: self paced
 
-Deadline Submission: June 8, 2025
+Deadline Submission: July 20, 2025
 
 Instructors' Names: Wedter JEROME & Geovany Batista Polo LAGUERRE
 
-Blog post URL (GitHub Repository Link): https://github.com/richefleuriord/Fleurinord_Dsc_Aviation_Project.git
+Blog post URL (GitHub Repository Link): https://github.com/richefleuriord/Ds_movie-analytics.git
 
 # *Project Title*
 Data-Driven Insights for a Successful Movie Studio: Analyzing Key Box Office Drivers
@@ -60,19 +60,21 @@ This project employs descriptive and exploratory data analysis techniques to exa
 The goal is to generate actionable insights that support strategic decision-making for investment and production planning in the movie industry.
 # *Results*
 Higher-budget films consistently generate significantly greater profits, highlighting the strong influence of investment scale on commercial success.
-![Bannière aviation](images/budget vs profit.jpeg)
+
+![Bannière aviation](images/budget vs profit.png)
 
 
 Genres such as Animation, Adventure, and Sci-Fi outperform others in both revenue and audience ratings, suggesting that genre choice is a critical factor in maximizing returns.
 
-![Bannière aviation](images/genres.jpeg)
+![Bannière aviation](images/genres.png)
 
-![Bannière aviation](images/Mean profit per genre.jpeg)
+
+![Bannière aviation](images/Mean profit per genre.png)
 
 
 While runtime and IMDb ratings show more moderate correlations with financial success, these factors remain statistically significant and contribute to audience satisfaction and box office performance.
 
-![Bannière aviation](images/profit.jpeg)
+![Bannière aviation](images/profit.png)
 
 # *Conclusions*
 This project successfully applied data science and statistical reasoning to uncover the key factors that drive a film’s financial success.
@@ -162,7 +164,7 @@ By following these steps, the studio can move from analysis to action—scaling 
 # *For More Information*
 For additional info, contact Riche Fleurinord at richefleurinord20@gmail.com
 
-![Bannière aviation](images/image7.jpg)
+![Bannière aviation](images/image7.jpeg)
 
 # *Repository Structure*
 1-.ipynb_checkpoints
